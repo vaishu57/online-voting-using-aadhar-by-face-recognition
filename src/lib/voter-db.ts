@@ -1,0 +1,203 @@
+export const voterDatabase: {
+  [key: string]: {
+    name: string;
+    age: number;
+    fatherName: string;
+    sex: string;
+    address: string;
+    imageUrl: string;
+  };
+} = {
+  "123456789013": {
+    name: "Ravi Sharma",
+    age: 42,
+    fatherName: "Anil Sharma",
+    sex: "Male",
+    address: "123, Gandhi Nagar, New Delhi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg",
+  },
+  "112233445568": {
+    name: "vaishnavi",
+    age: 20,
+    fatherName: "Suresh Verma",
+    sex: "Female",
+    address: "789, Patel Chowk, Ahmedabad",
+    imageUrl: "/vaishnavi.jpg",
+  },
+  "223344556677": {
+    name: "sasikala",
+    age: 20,
+    fatherName: "Mahesh Gupta",
+    sex: "Female",
+    address: "101, Ashok Vihar, Kolkata",
+    imageUrl: "/sasikala.jpg",
+  },
+  "334455667788": {
+    name: "jyothi",
+    age: 19,
+    fatherName: "Krishna Reddy",
+    sex: "Female",
+    address: "202, Banjara Hills, Hyderabad",
+    imageUrl: "/jyothi.jpg",
+  },
+  "445566778899": {
+    name: "sai",
+    age: 19,
+    fatherName: "Gopal Nair",
+    sex: "Female",
+    address: "303, M.G. Road, Bengaluru",
+    imageUrl: "/sai.jpg",
+  },
+  "556677889900": {
+    name: "ruksana",
+    age: 21,
+    fatherName: "Prakash Jain",
+    sex: "Female",
+    address: "404, Civil Lines, Jaipur",
+    imageUrl: "/ruksana.jpg",
+  },
+  "667788990011": {
+    name: "param",
+    age: 20,
+    fatherName: "Mohan Rao",
+    sex: "Female",
+    address: "505, Anna Nagar, Chennai",
+    imageUrl: "/param.jpg",
+  },
+  "778899001122": {
+    name: "mohana",
+    age: 20,
+    fatherName: "Ram Kumar",
+    sex: "Female",
+    address: "606, Sector 17, Chandigarh",
+    imageUrl: "/mohana.jpg",
+  },
+  "889900112233": {
+    name: "hema",
+    age: 20,
+    fatherName: "Vijay Desai",
+    sex: "Female",
+    address: "707, Koregaon Park, Pune",
+    imageUrl: "/hema.jpg",
+  },
+  "990011223344": {
+    name: "Jyothi Reddy",
+    age: 21,
+    fatherName: "Bhavesh Patel",
+    sex: "Female",
+    address: "808, SG Highway, Ahmedabad",
+    imageUrl: "/jyothi reddy.jpg",
+  },
+  "001122334455": {
+    name: "Srinivasa Rao",
+    age: 35,
+    fatherName: "Manish Joshi",
+    sex: "Male",
+    address: "909, Juhu Tara Road, Mumbai",
+    imageUrl: "/Srinivasa Rao.jpg",
+  },
+  "111122223333": {
+    name: "Padmavathi",
+    age: 32,
+    fatherName: "Rajiv Kapoor",
+    sex: "Female",
+    address: "111, MG Road, Pune",
+    imageUrl: "/Padmavathi.jpg",
+  },
+  "222233334444": {
+    name: "Asnika",
+    age: 19,
+    fatherName: "Gopal Krishnan",
+    sex: "Female",
+    address: "222, Anna Salai, Chennai",
+    imageUrl: "/Asnika.jpg",
+  },
+  "333344445555": {
+    name: "Rohit sharma",
+    age: 33,
+    fatherName: "Srinivas Reddy",
+    sex: "Male",
+    address: "333, Jubilee Hills, Hyderabad",
+    imageUrl: "/Rohit sharma.jpg",
+  },
+  "444455556666": {
+    name: "Pawan kalayan",
+    age: 38,
+    fatherName: "Dinesh Mehta",
+    sex: "Male",
+    address: "444, C.G. Road, Ahmedabad",
+    imageUrl: "/Pawan kalayan.jpg",
+  },
+  "555566667777": {
+    name: "Bhavana",
+    age: 26,
+    fatherName: "Anand Sharma",
+    sex: "Female",
+    address: "555, Lajpat Nagar, New Delhi",
+    imageUrl: "/Bhavana.jpg",
+  },
+  "666677778888": {
+    name: "sai pallavi",
+    age: 25,
+    fatherName: "Suresh Kumar",
+    sex: "Female",
+    address: "666, Indiranagar, Bengaluru",
+    imageUrl: "sai pallavi.jpg",
+  },
+  "777788889999": {
+    name: "sudheer",
+    age: 27,
+    fatherName: "Jignesh Patel",
+    sex: "Male",
+    address: "777, Satellite, Ahmedabad",
+    imageUrl: "/sudheer.jpg",
+  },
+  "888899990000": {
+    name: "vijay Thalapathy",
+    age: 35,
+    fatherName: "Rakesh Singh",
+    sex: "Male",
+    address: "888, Gomti Nagar, Lucknow",
+    imageUrl: "/vijay Thalapathy.jpg",
+  },
+  "999900001111": {
+    name: "samantha",
+    age: 27,
+    fatherName: "Madhavan Nair",
+    sex: "Female",
+    address: "999, Marine Drive, Kochi",
+    imageUrl: "/samantha.jpg",
+  },
+  "000011112222": {
+    name: "Akshay Kumar",
+    age: 45,
+    fatherName: "Om Prakash Gupta",
+    sex: "Male",
+    address: "121, Park Street, Kolkata",
+    imageUrl: "/akshay kumar.jpg",
+  },
+  "111222333444": {
+    name: "Anupama",
+    age: 28,
+    fatherName: "Amit Das",
+    sex: "Female",
+    address: "10, Ballygunge, Kolkata",
+    imageUrl: "/Anupama.jpg"
+  },
+  "222333444555": {
+    name: "padmavathi",
+    age: 21,
+    fatherName: "Bimal Roy",
+    sex: "Female",
+    address: "21, Jadavpur, Kolkata",
+    imageUrl: "/paddu.jpg"
+  },
+  "333444555666": {
+    name: "Kimseok Jin",
+    age: 23,
+    fatherName: "Tarun Ghosh",
+    sex: "Male",
+    address: "34, Salt Lake, Kolkata",
+    imageUrl: "/Kimseok Jin.jpg"
+  }
+};
