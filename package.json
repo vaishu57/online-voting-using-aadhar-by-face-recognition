@@ -1,8 +1,3 @@
-"homepage": "https://vaishu57.github.io/online-voting-using-aadhar-by-face-recognition",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
 {
   "name": "nextn",
   "version": "0.1.0",
